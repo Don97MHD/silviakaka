@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Head from 'next/head';
 import Layout from '../../layouts/layout';
 import config from '../../lib/config';

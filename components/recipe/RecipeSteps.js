@@ -10,9 +10,9 @@ const RecipeSteps = ({ additionalClass = [], steps, headerText }) => (
         
         <div className="space-y-10">
             {steps.map((step, index) => (
-                <div key={index} className="relative">
+                /* أضفنا هنا الـ ID لكل خطوة بناءً على رقمها */
+                <div key={index} id={`step${index + 1}`} className="relative scroll-mt-24"> 
                     <div className="flex items-start mb-2">
-                        {/* رقم الخطوة بحجم أصغر وأنيق */}
                         <span className="flex-shrink-0 flex items-center justify-center w-7 h-7 rounded-full bg-secondary/10 text-secondary font-bold text-xs mr-4 mt-0.5 shadow-sm border border-secondary/20">
                             {index + 1}
                         </span>

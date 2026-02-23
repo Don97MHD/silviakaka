@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link'; // <-- ضروري للبريدكامب
@@ -220,6 +220,7 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                     <div className="lg:col-span-7 xl:col-span-8 flex flex-col gap-8">
                         <div className="bg-white p-6 md:p-10 rounded-[2rem] shadow-sm border border-gray-100 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-40 h-40 bg-orange-50 rounded-full -mr-16 -mt-16 blur-2xl pointer-events-none"></div>
+                            
                             <RecipeSteps 
                                 steps={recipe.steps || []} 
                                 additionalClass={['bg-transparent relative z-10 w-full max-w-full']} 
