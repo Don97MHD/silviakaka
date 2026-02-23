@@ -1,0 +1,86 @@
+[
+  {
+    "_id": "651f0f3e2c3b4a5d6e7f8a90",
+    "id": "silviakaka",
+    "slug": "silviakaka",
+    "name": {
+      "sv": "Silviakaka",
+      "en": "Silvia Cake"
+    },
+    "description": {
+      "sv": "Välkommen till den ultimata guiden för Silviakaka! Här på Silviakaka.se har vi samlat allt du behöver veta om denna otroligt populära och älskade svenska kaka. Från dess spännande historia till det klassiska grundreceptet, smarta baktips för att garantera en saftig kaka varje gång, och hur du gör den oemotståndliga smörkrämsglasyren.\nUtforska våra många recept nedan för att hitta din favoritvariant – oavsett om du vill baka den i långpanna, som muffins, glutenfri, vegansk, eller med spännande smaksättningar som saffran eller citron. Glad bakning!",
+      "en": "Welcome to the ultimate guide for Silviakaka! Here at Silviakaka.se, we have gathered everything you need to know about this incredibly popular and beloved Swedish cake. Explore our many recipes below to find your favorite variation. Happy baking!"
+    },
+    "meta_description": {
+      "sv": "Din kompletta guide till Silviakaka! Upptäck klassiska recept, spännande variationer, och allt du behöver veta.",
+      "en": "Your complete guide to Silviakaka! Discover classic recipes, exciting variations, and everything you need to know."
+    },
+    "title": {
+      "sv": "Allt om Silviakaka - Recept & Tips",
+      "en": "All About Silviakaka - Recipes & Tips"
+    }
+  },
+  {
+    "_id": "651f0f3e2c3b4a5d6e7f8a91",
+    "id": "kladdkaka",
+    "slug": "kladdkaka",
+    "name": {
+      "sv": "Kladdkaka",
+      "en": "Sticky Chocolate Cake"
+    },
+    "description": {
+      "sv": "Välkommen till den ultimata guiden för alla kladdkakeälskare! Här har vi samlat allt du behöver veta om denna seglivade favorit. Lär dig historien bakom, få det klassiska grundreceptet, ovärderliga tips för perfekt kladdighet, och svar på vanliga frågor.\nBläddra bland våra recept nedan för att hitta just din kladdkakefavorit.",
+      "en": "Welcome to the ultimate guide for all kladdkaka lovers! Here we have gathered everything you need to know about this persistent favorite. Browse our recipes below to find your particular kladdkaka favorite."
+    },
+    "meta_description": {
+      "sv": "Din kompletta guide till Kladdkaka! Upptäck klassiska recept, spännande variationer, och allt du behöver veta.",
+      "en": "Your complete guide to Kladdkaka! Discover classic recipes, exciting variations, and everything you need to know."
+    },
+    "title": {
+      "sv": "Allt om Kladdkaka - Recept & Tips",
+      "en": "All About Kladdkaka - Recipes & Tips"
+    }
+  },
+  {
+    "_id": "651f0f3e2c3b4a5d6e7f8a92",
+    "id": "mjuka-kakor",
+    "slug": "mjuka-kakor",
+    "name": {
+      "sv": "Mjuka kakor",
+      "en": "Soft Cakes"
+    },
+    "description": {
+      "sv": "Utforska en värld av saftiga och smakrika mjuka kakor. Här hittar du allt från klassiska sockerkakor till moderna skapelser, perfekta för varje fika.",
+      "en": "Explore a world of moist and flavorful soft cakes. Here you'll find everything from classic sponge cakes to modern creations, perfect for any coffee break."
+    },
+    "meta_description": {
+      "sv": "Recept och inspiration för alla typer av mjuka kakor. Hitta din nya favorit till fikat här!",
+      "en": "Recipes and inspiration for all types of soft cakes. Find your new favorite for your coffee break here!"
+    },
+    "title": {
+      "sv": "Mjuka Kakor - Recept & Inspiration",
+      "en": "Soft Cakes - Recipes & Inspiration"
+    }
+  },
+  {
+    "_id": "651f0f3e2c3b4a5d6e7f8a93",
+    "id": "smakakor",
+    "slug": "smakakor",
+    "name": {
+      "sv": "Småkakor",
+      "en": "Cookies"
+    },
+    "description": {
+      "sv": "Sju sorters kakor eller bara en favorit? Här samlar vi de bästa recepten på småkakor, från traditionella klassiker till nya, spännande varianter.",
+      "en": "Seven kinds of cookies or just one favorite? Here we collect the best cookie recipes, from traditional classics to new, exciting variations."
+    },
+    "meta_description": {
+      "sv": "Baka ljuvliga småkakor! Hitta enkla och goda recept på allt från chokladsnitt till drömmar.",
+      "en": "Bake delightful cookies! Find simple and tasty recipes for everything from chocolate slices to dreams."
+    },
+    "title": {
+      "sv": "Recept på Småkakor",
+      "en": "Cookie Recipes"
+    }
+  }
+]

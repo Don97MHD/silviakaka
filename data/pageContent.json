@@ -1,0 +1,75 @@
+{
+  "about": {
+    "title": {
+      "sv": "Om Oss | Silviakaka",
+      "en": "About Us | Silviakaka"
+    },
+    "headline": {
+      "sv": "Möt Elsa Lundström",
+      "en": "Meet Elsa Lundström"
+    },
+    "meta_description": {
+      "sv": "Lär känna Elsa Lundström, kvinnan bakom Silviakaka.se, och hennes passion för svenska bakverk.",
+      "en": "Get to know Elsa Lundström, the woman behind Silviakaka.se, and her passion for Swedish pastries."
+    },
+    "body": {
+      "sv": "Välkommen hit till Silviakaka.se! Jag heter Elsa Lundström, och det är jag som med stor glädje delar med mig av mina allra bästa recept och baktips här på sidan. Jag växte upp på den småländska landsbygden, i ett hem där köket alltid var hjärtat och doften av nybakat bröd och kakor spred sig som en varm kram. Min mormor var en sann mästarinna på klassiska svenska bakverk, och det var hon som tände min passion för bakning. För mig ska bakning vara roligt, tillgängligt för alla och framför allt fyllt av kärlek. Jag tror på enkla, ärliga smaker och att de allra bästa recepten är de som delas vidare, från generation till generation.",
+      "en": "Welcome to Silviakaka.se! My name is Elsa Lundström, and it is with great pleasure that I share my very best recipes and baking tips here on the site. I grew up in the Småland countryside, in a home where the kitchen was always the heart and the scent of freshly baked bread and cakes spread like a warm hug. My grandmother was a true master of classic Swedish pastries, and she was the one who ignited my passion for baking. For me, baking should be fun, accessible to everyone, and above all, filled with love. I believe in simple, honest flavors and that the very best recipes are those that are passed on, from generation to generation."
+    }
+  },
+  "contact": {
+    "title": {
+      "sv": "Kontakta Oss | Silviakaka",
+      "en": "Contact Us | Silviakaka"
+    },
+    "headline": {
+      "sv": "Kontakta Oss",
+      "en": "Contact Us"
+    },
+    "meta_description": {
+      "sv": "Har du frågor, feedback eller vill du bara säga hej? Kontakta oss på Silviakaka.se. Vi ser fram emot att höra från dig!",
+      "en": "Do you have questions, feedback, or just want to say hello? Contact us at Silviakaka.se. We look forward to hearing from you!"
+    },
+    "body": {
+      "sv": "Vi på Silviakaka.se älskar att höra från våra läsare! Oavsett om du har en fråga om ett recept, ett förslag på en ny Silviakaka-variant, feedback på vår sajt, eller bara vill dela med dig av din bakglädje, är du varmt välkommen att kontakta oss. Det enklaste sättet att nå oss är via e-post.",
+      "en": "We at Silviakaka.se love to hear from our readers! Whether you have a question about a recipe, a suggestion for a new Silviakaka variation, feedback on our site, or just want to share your baking joy, you are warmly welcome to contact us. The easiest way to reach us is by email."
+    },
+    "email": "elsa@silviakaka.se"
+  },
+  "silviakakaGuide": {
+    "title": {
+      "sv": "Allt om Silviakaka - Recept & Tips | Silviakaka.se",
+      "en": "All About Silviakaka - Recipes & Tips | Silviakaka.se"
+    },
+    "headline": {
+      "sv": "Den ultimata guiden till Silviakaka",
+      "en": "The Ultimate Guide to Silviakaka"
+    },
+    "meta_description": {
+      "sv": "Upptäck hemligheterna bakom den perfekta Silviakakan. Vi har samlat recept, historia och de bästa tipsen för att lyckas.",
+      "en": "Discover the secrets behind the perfect Silviakaka. We have gathered recipes, history, and the best tips for success."
+    },
+    "body": {
+      "sv": "Silviakaka är en av Sveriges mest älskade mjuka kakor, känd för sin saftiga botten och den karaktäristiska glasyren med smak av vanilj och kokos. Kakan sägs vara uppkallad efter Drottning Silvia och har varit en favorit på svenska fikabord i decennier.\n\nHär har vi samlat våra bästa recept och variationer på denna klassiker. Oavsett om du föredrar att baka i långpanna för många gäster, eller vill prova en glutenfri variant, hittar du inspirationen här. Låt oss dyka ner i Silviakakans ljuvliga värld!",
+      "en": "Silviakaka is one of Sweden's most beloved soft cakes, known for its moist base and characteristic icing flavored with vanilla and coconut. The cake is said to be named after Queen Silvia and has been a favorite at Swedish coffee tables for decades.\n\nHere we have gathered our best recipes and variations on this classic. Whether you prefer to bake in a sheet pan for many guests, or want to try a gluten-free variant, you will find inspiration here. Let's dive into the delightful world of Silviakaka!"
+    }
+  },
+  "kladdkakaGuide": {
+    "title": {
+      "sv": "Allt om Kladdkaka - Recept & Tips | Silviakaka.se",
+      "en": "All About Kladdkaka - Recipes & Tips | Silviakaka.se"
+    },
+    "headline": {
+      "sv": "Den ultimata guiden till Kladdkaka",
+      "en": "The Ultimate Guide to Kladdkaka"
+    },
+    "meta_description": {
+      "sv": "Hitta din favoritkladdkaka! Vi guidar dig genom klassiska recept, sega varianter och spännande smakkombinationer.",
+      "en": "Find your favorite Kladdkaka! We guide you through classic recipes, chewy variants, and exciting flavor combinations."
+    },
+    "body": {
+      "sv": "Kladdkaka är utan tvekan en av de mest populära bakverken i Sverige. Dess enkelhet i kombination med den fantastiska smaken av choklad gör den till en ständig vinnare. Hemligheten ligger i gräddningen – den ska vara precis lagom kladdig i mitten.\n\nI denna guide utforskar vi allt som har med kladdkaka att göra. Från det klassiska receptet som aldrig slår fel, till moderna tolkningar med vit choklad, lakrits eller nötter. Ta fram vispen och förbered dig på chokladmagi!",
+      "en": "Kladdkaka is undoubtedly one of the most popular pastries in Sweden. Its simplicity combined with the fantastic taste of chocolate makes it a constant winner. The secret lies in the baking – it should be just perfectly sticky in the middle.\n\nIn this guide, we explore everything related to Kladdkaka. From the classic recipe that never fails, to modern interpretations with white chocolate, licorice, or nuts. Get out the whisk and prepare for chocolate magic!"
+    }
+  }
+}

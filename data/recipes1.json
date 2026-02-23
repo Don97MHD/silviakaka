@@ -1,0 +1,2632 @@
+[
+  {
+    "id": "silviakaka-klassisk",
+    "name": "Silviakaka – Det Klassiska Receptet",
+    "slug": "silviakaka",
+    "image": [
+      {
+        "id": "silviakaka-main-image",
+        "url": "/images/recipes/silviakaka-klassisk.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Klassisk Silviakaka med gyllene glasyr och rikligt med kokos"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C (varmluft) eller 200°C (över-/undervärme). Smörj och bröa en långpanna, cirka 30x40 cm.",
+        "image": []
+      },
+      {
+        "step": "Vispa ägg och socker ljust och pösigt med elvisp.",
+        "image": []
+      },
+      {
+        "step": "Blanda vetemjöl och bakpulver i en separat skål. Vänd försiktigt ner mjölblandningen i äggsmeten.",
+        "image": []
+      },
+      {
+        "step": "Tillsätt det smälta smöret (eller oljan) och vattnet. Rör om tills smeten är jämn.",
+        "image": []
+      },
+      {
+        "step": "Häll smeten i långpannan och grädda i nedre delen av ugnen i cirka 15-20 minuter, eller tills kakan är gyllenbrun och en provsticka kommer ut torr.",
+        "image": []
+      },
+      {
+        "step": "Låt kakan svalna helt i formen innan du brer på glasyren.",
+        "image": []
+      },
+      {
+        "step": "Glasyr: Smält smöret i en kastrull. Ta kastrullen från värmen och rör ner florsocker, vaniljsocker och äggula. Vispa tills glasyren är slät och blank.",
+        "image": []
+      },
+      {
+        "step": "Bred glasyren jämnt över den kalla kakan. Strö över rikligt med kokosflingor.",
+        "image": []
+      },
+      {
+        "step": "Låt glasyren stelna något innan du skär kakan i bitar.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 24 bitar (1 långpanna)",
+    "cookingTime": "PT20M",
+    "prepTime": "PT20M",
+    "totalTime": "PT40M",
+    "description": "Upptäck det klassiska receptet på Silviakaka, en älskad svensk mjuk kaka perfekt för fika och kalas. Detta enkla Silviakaka recept ger en underbart saftig vaniljbotten toppad med en krämig smörglasyr och rikligt med kokos. Lär dig baka denna favorit som ofta görs i långpanna och garanterat blir en succé. Vårt `recept silviakaka` är lätt att följa och ger en `saftig silviakaka` med den ikoniska `silviakaka glasyr` som alla älskar. Perfekt för både nybörjare och erfarna bagare.",
+    "recipeCategory": "Mjuk kaka, Långpannekaka, Fika",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka, silviakaka recept, recept silviakaka, saftig silviakaka, silviakaka glasyr, långpanna",
+    "datePublished": "2024-07-28",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka:"
+      },
+      {
+        "unit": "st",
+        "amount": 3,
+        "product": "stora ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "kallt vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör (smält och avsvalnat) eller 1 dl neutral olja"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr:"
+      },
+      {
+        "unit": "g",
+        "amount": 150,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 2,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "äggula"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "kokosflingor (eller mer efter smak)"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "15"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 250 kcal per bit"
+    }
+  },
+  {
+    "id": "silviakaka-langpanna",
+    "name": "Silviakaka i Långpanna (Stort Recept)",
+    "slug": "silviakaka-langpanna",
+    "image": [
+      {
+        "id": "silviakaka-langpanna-img",
+        "url": "/images/recipes/silviakaka-langpanna.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Silviakaka bakad i en stor långpanna"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Klä en långpanna (ca 30x40 cm) med bakplåtspapper.",
+        "image": []
+      },
+      {
+        "step": "Vispa ägg och socker vitt och pösigt.",
+        "image": []
+      },
+      {
+        "step": "Blanda de torra ingredienserna och sikta ner i smeten växelvis med vattnet. Tillsätt smält smör/olja.",
+        "image": []
+      },
+      {
+        "step": "Bred ut smeten jämnt i långpannan. Grädda i ca 20-25 minuter.",
+        "image": []
+      },
+      {
+        "step": "Låt kakan svalna. Gör glasyren och bred över. Strö över kokos.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 30-40 bitar (beroende på storlek)",
+    "cookingTime": "PT25M",
+    "prepTime": "PT20M",
+    "totalTime": "PT45M",
+    "description": "<p>Perfekt när du ska bjuda många! Detta recept på Silviakaka i långpanna är anpassat för en större form (t.ex. 30x40 cm) och ger en härligt saftig kaka som räcker till hela sällskapet. Använd gärna receptet med 6 ägg för extra fluffighet.</p>",
+    "recipeCategory": "Långpannekaka, Fika, Fest",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka långpanna, silviakaka i långpanna, silviakaka recept långpanna, stor silviakaka, 6 ägg",
+    "datePublished": "2024-07-29",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka (anpassad för långpanna, t.ex. 6 ägg variant):"
+      },
+      {
+        "unit": "st",
+        "amount": 6,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 6,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 6,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 4,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "kallt vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 200,
+        "product": "smör (smält) eller 2 dl olja"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr (anpassad mängd):"
+      },
+      {
+        "unit": "g",
+        "amount": 225,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 3,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "stor äggula (eller 2 små)"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "125"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 280 kcal per bit"
+    }
+  },
+  {
+    "id": "silviakaka-rund-springform",
+    "name": "Silviakaka i Rund Springform",
+    "slug": "silviakaka-rund-springform",
+    "image": [
+      {
+        "id": "silviakaka-rund-img",
+        "url": "/images/recipes/silviakaka-rund.jpg",
+        "extension": "jpg",
+        "width": 1000,
+        "height": 1000,
+        "alt": "Silviakaka bakad i en rund springform"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en rund form (ca 22-24 cm i diameter).",
+        "image": []
+      },
+      {
+        "step": "Vispa ägg och socker pösigt.",
+        "image": []
+      },
+      {
+        "step": "Blanda torra ingredienser, vänd ner i smeten med vatten och smält smör/olja.",
+        "image": []
+      },
+      {
+        "step": "Häll i formen, grädda ca 25-30 min. Känn med sticka.",
+        "image": []
+      },
+      {
+        "step": "Låt svalna. Gör glasyr, bred på och strö över kokos.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 10-12 bitar",
+    "cookingTime": "PT30M",
+    "prepTime": "PT15M",
+    "totalTime": "PT45M",
+    "description": "<p>En klassisk Silviakaka anpassad för en rund springform. Perfekt för en mindre bjudning eller när du vill ha en traditionell tårtliknande kaka. Se till att formen är väl smord för att enkelt få ut kakan.</p>",
+    "recipeCategory": "Mjuk kaka, Tårta, Fika",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka rund, rund silviakaka, silviakaka i springform, silviakaka springform",
+    "datePublished": "2024-07-30",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka (anpassad för rund form, ca 22-24cm):"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "stora ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1.5,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "kallt vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 75,
+        "product": "smör (smält) eller 0.75 dl olja"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr (anpassad mängd):"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 1.5,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "äggula"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.3",
+      "ratingCount": "5"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 230 kcal per bit"
+    }
+  },
+  {
+    "id": "silviakaka-med-saffran",
+    "name": "Silviakaka med Saffran",
+    "slug": "silviakaka-med-saffran",
+    "image": [
+      {
+        "id": "silviakaka-saffran-img",
+        "url": "/images/recipes/silviakaka-saffran.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Gul och festlig Silviakaka med saffran"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Mortla saffran med lite socker. Blanda med smält smör/olja och låt dra.",
+        "image": []
+      },
+      {
+        "step": "Följ grundreceptet för Silviakaka, men tillsätt saffransblandningen i smeten.",
+        "image": []
+      },
+      {
+        "step": "Grädda och gör glasyr som vanligt. Kokos eller hackad mandel som topping.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 24 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT25M",
+    "totalTime": "PT45M",
+    "description": "<p>En julig och festlig variant av den klassiska Silviakakan! Saffran ger kakan en vacker gul färg och en underbar, lyxig smak som passar perfekt till advent och jul. Kan toppas med kokos eller varför inte hackad mandel.</p>",
+    "recipeCategory": "Julbak, Mjuk kaka, Långpannekaka",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka med saffran, silviakaka saffran, julkaka, adventsfika",
+    "datePublished": "2024-08-01",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka (samma som klassisk, med tillägg):"
+      },
+      {
+        "unit": "st",
+        "amount": 3,
+        "product": "stora ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "kallt vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör (smält och avsvalnat) eller 1 dl neutral olja"
+      },
+      {
+        "unit": "paket",
+        "amount": 1,
+        "product": "saffran (0,5g), mortlat med lite socker"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr (samma som klassisk):"
+      },
+      {
+        "unit": "g",
+        "amount": 150,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 2,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "äggula"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "kokosflingor eller hackad mandel"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "100"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 260 kcal per bit"
+    }
+  },
+  {
+    "id": "glutenfri-silviakaka",
+    "name": "Glutenfri Silviakaka",
+    "slug": "glutenfri-silviakaka",
+    "image": [
+      {
+        "id": "silviakaka-glutenfri-img",
+        "url": "/images/recipes/glutenfri-silviakaka.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Saftig glutenfri Silviakaka"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Använd glutenfri mjölmix istället för vetemjöl. Följ i övrigt grundreceptet.",
+        "image": []
+      },
+      {
+        "step": "Se till att alla ingredienser, inklusive bakpulver, är glutenfria.",
+        "image": []
+      },
+      {
+        "step": "Grädda och gör glasyr som vanligt.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 24 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT20M",
+    "totalTime": "PT40M",
+    "description": "<p>Njut av en klassisk Silviakaka även om du är glutenintolerant! Detta recept använder glutenfri mjölmix och ger en lika saftig och god kaka som originalet. Viktigt att kontrollera att alla ingredienser är certifierat glutenfria.</p>",
+    "recipeCategory": "Glutenfritt, Mjuk kaka, Långpannekaka",
+    "recipeCuisine": "Svensk",
+    "keywords": "glutenfri silviakaka, silviakaka glutenfri, glutenfritt recept",
+    "datePublished": "2024-08-02",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka:"
+      },
+      {
+        "unit": "st",
+        "amount": 3,
+        "product": "stora ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 3.5,
+        "product": "glutenfri mjölmix (t.ex. Semper Fin Mix)"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "glutenfritt bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "kallt vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör (smält) eller 1 dl olja"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr (samma som klassisk, kontrollera glutenfri status på vaniljsocker):"
+      },
+      {
+        "unit": "g",
+        "amount": 150,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 2,
+        "product": "vaniljsocker (glutenfritt)"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "äggula"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "125"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 240 kcal per bit (kan variera med mjölmix)"
+    }
+  },
+  {
+    "id": "vegansk-silviakaka-utan-agg",
+    "name": "Vegansk Silviakaka (Utan Ägg & Mjölk)",
+    "slug": "vegansk-silviakaka-utan-agg",
+    "image": [
+      {
+        "id": "silviakaka-vegansk-img",
+        "url": "/images/recipes/vegansk-silviakaka.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Vegansk Silviakaka med krämig växtbaserad glasyr"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en form (ca 20x30 cm) med veganskt fett och ströbröd/mjöl.",
+        "image": []
+      },
+      {
+        "step": "Blanda vetemjöl, socker, bakpulver, vaniljsocker i en bunke.",
+        "image": []
+      },
+      {
+        "step": "Tillsätt växtbaserad dryck (t.ex. havredryck) och neutral olja. Vispa ihop till en slät smet.",
+        "image": []
+      },
+      {
+        "step": "Häll smeten i formen och grädda i ca 20-25 minuter.",
+        "image": []
+      },
+      {
+        "step": "Låt kakan svalna helt. Glasyr: Smält veganskt smör. Rör ner florsocker, vaniljsocker och lite växtbaserad grädde eller citronsaft för konsistens.",
+        "image": []
+      },
+      {
+        "step": "Bred över kakan och strö över kokos.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 15-20 bitar",
+    "cookingTime": "PT25M",
+    "prepTime": "PT20M",
+    "totalTime": "PT45M",
+    "description": "<p>En helt vegansk Silviakaka som är precis lika saftig och god som originalet! Perfekt för alla som äter växtbaserat eller är allergiska mot ägg och mjölk. Vi använder enkla veganska alternativ för att återskapa den klassiska smaken och texturen.</p>",
+    "recipeCategory": "Veganskt, Mjuk kaka, Äggfritt, Mjölkfritt",
+    "recipeCuisine": "Svensk",
+    "keywords": "vegansk silviakaka, silviakaka utan ägg, silviakaka mjölkfri, växtbaserad kaka",
+    "datePublished": "2024-08-03",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka:"
+      },
+      {
+        "unit": "dl",
+        "amount": 3.5,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "strösocker"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "krm",
+        "amount": 1,
+        "product": "salt"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "neutral olja (t.ex. rapsolja)"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "växtbaserad dryck (t.ex. havre- eller sojadryck)"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr:"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "mjölkfritt margarin/smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "florsocker"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 1,
+        "product": "växtbaserad grädde eller citronsaft (för konsistens)"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "25"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 230 kcal per bit"
+    }
+  },
+  {
+    "id": "silviakaka-med-citron",
+    "name": "Silviakaka med Citron",
+    "slug": "silviakaka-med-citron",
+    "image": [
+      {
+        "id": "silviakaka-citron-img",
+        "url": "/images/recipes/silviakaka-citron.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Fräsch Silviakaka med citronsmak"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Följ grundreceptet för Silviakaka. Tillsätt rivet citronskal från 1 citron i smeten.",
+        "image": []
+      },
+      {
+        "step": "Glasyr: Ersätt en del av vätskan (eller tillsätt) med färskpressad citronsaft och rivet citronskal för extra smak.",
+        "image": []
+      },
+      {
+        "step": "Grädda, låt svalna, bred på glasyren och toppa med kokos.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 24 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT25M",
+    "totalTime": "PT45M",
+    "description": "<p>En uppfriskande twist på den klassiska Silviakakan! Citron ger en härlig syrlighet till både kakan och glasyren, vilket balanserar sötman perfekt. En favorit för den som älskar citrus.</p>",
+    "recipeCategory": "Mjuk kaka, Citrus, Långpannekaka",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka med citron, citronkaka, silviakaka citron",
+    "datePublished": "2024-08-04",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka (samma som klassisk, med tillägg):"
+      },
+      {
+        "unit": "st",
+        "amount": 3,
+        "product": "stora ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "kallt vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör (smält) eller 1 dl olja"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "rivet skal från 1 ekologisk citron"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr:"
+      },
+      {
+        "unit": "g",
+        "amount": 150,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "äggula"
+      },
+      {
+        "unit": "msk",
+        "amount": 1,
+        "product": "färskpressad citronsaft (ca)"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "rivet citronskal (valfritt, för extra smak i glasyr)"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "12"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 255 kcal per bit"
+    }
+  },
+  {
+    "id": "silviakaka-toppings-variationer",
+    "name": "Silviakaka Toppings & Variationer",
+    "slug": "silviakaka-toppings-variationer",
+    "image": [
+      {
+        "id": "silviakaka-toppings-img",
+        "url": "/images/recipes/silviakaka-toppings.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Silviakaka med olika sorters topping"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Baka en klassisk Silviakaka enligt grundreceptet.",
+        "image": []
+      },
+      {
+        "step": "Strössel: Istället för eller tillsammans med kokos, strö över färgglatt strössel efter att glasyren har bretts på. Perfekt för barnkalas!",
+        "image": []
+      },
+      {
+        "step": "Påsk-Silviakaka: Dekorera med gult strössel, små påskägg i choklad eller marsipanfigurer.",
+        "image": []
+      },
+      {
+        "step": "Frukt & Bär: Toppa med färska bär som hallon, blåbär eller jordgubbar precis innan servering för en fräsch touch.",
+        "image": []
+      },
+      {
+        "step": "Nötter: Rostat och hackad mandel, hasselnötter eller pekannötter kan ge en härlig crunch.",
+        "image": []
+      }
+    ],
+    "servings": "Varierar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT20M",
+    "totalTime": "PT40M",
+    "description": "<p>Silviakakan är fantastisk som den är, men det är också roligt att variera toppingen! Här är några idéer för att ge din Silviakaka en ny look och smak. Grunden är oftast den klassiska kakan och glasyren, men toppingen kan göra stor skillnad.</p>",
+    "recipeCategory": "Tips & Tricks, Mjuk kaka",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka med strössel, silviakaka påsk, silviakaka topping, kaka variationer",
+    "datePublished": "2024-08-05",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Grundrecept för Silviakaka (se klassiska receptet)"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Förslag på Toppings:"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "Färgglatt strössel"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "Gult strössel (för påsk)"
+      },
+      {
+        "unit": "ask",
+        "amount": 1,
+        "product": "Färska bär (hallon, blåbär, etc.)"
+      },
+      {
+        "unit": "dl",
+        "amount": 0.5,
+        "product": "Hackad mandel eller andra nötter"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.1",
+      "ratingCount": "125"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Varierar beroende på topping"
+    }
+  },
+  {
+    "id": "silviakaka-muffins",
+    "name": "Silviakaka Muffins",
+    "slug": "silviakaka-muffins",
+    "image": [
+      {
+        "id": "silviakaka-muffins-img",
+        "url": "/images/recipes/silviakaka-muffins.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Saftiga Silviakaka muffins med glasyr och kokos"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 200°C. Placera muffinsformar i en muffinsplåt.",
+        "image": []
+      },
+      {
+        "step": "Gör smeten enligt grundreceptet för Silviakaka.",
+        "image": []
+      },
+      {
+        "step": "Fördela smeten i muffinsformarna, fyll dem till ca 2/3.",
+        "image": []
+      },
+      {
+        "step": "Grädda mitt i ugnen i ca 12-15 minuter, eller tills de är gyllenbruna och genomgräddade.",
+        "image": []
+      },
+      {
+        "step": "Låt muffinsen svalna helt. Gör glasyren, bred på och strö över kokos.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 12-15 muffins",
+    "cookingTime": "PT15M",
+    "prepTime": "PT20M",
+    "totalTime": "PT35M",
+    "description": "<p>Förvandla den älskade Silviakakan till praktiska och ljuvliga muffins! Perfekt för utflykten, barnkalaset eller när du vill ha portionsstora godsaker. Samma saftiga kaka och krämiga glasyr, men i ett mindre format.</p>",
+    "recipeCategory": "Muffins, Fika, Barnvänligt",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka muffins, silvia muffins, muffins recept",
+    "datePublished": "2024-08-06",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Muffinssmet (baserad på klassiska receptet, mängder kan behöva justeras något):"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "stora ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1.5,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "kallt vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 75,
+        "product": "smör (smält) eller 0.75 dl olja"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr (mindre mängd):"
+      },
+      {
+        "unit": "g",
+        "amount": 75,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "liten äggula"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "125"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 180 kcal per muffin"
+    }
+  },
+  {
+    "id": "silviakaka-sockerkaksform",
+    "name": "Silviakaka i Sockerkaksform",
+    "slug": "silviakaka-sockerkaksform",
+    "image": [
+      {
+        "id": "silviakaka-sockerkaksform-img",
+        "url": "/images/recipes/silviakaka-sockerkaksform.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Silviakaka bakad som en traditionell sockerkaka"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en sockerkaksform (ca 1,5 - 2 liter).",
+        "image": []
+      },
+      {
+        "step": "Gör smeten enligt grundreceptet för Silviakaka (mängderna för en klassisk långpanna kan vara för mycket, halvera eventuellt för en mindre form).",
+        "image": []
+      },
+      {
+        "step": "Häll smeten i formen. Grädda i nedre delen av ugnen i ca 30-40 minuter, eller tills kakan är genomgräddad.",
+        "image": []
+      },
+      {
+        "step": "Låt kakan svalna i formen en stund innan den stjälps upp. Låt svalna helt.",
+        "image": []
+      },
+      {
+        "step": "Gör glasyren och ringla eller bred över kakan. Strö över kokos.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 10-12 bitar",
+    "cookingTime": "PT40M",
+    "prepTime": "PT20M",
+    "totalTime": "PT1H",
+    "description": "<p>Baka Silviakakan i en traditionell sockerkaksform för en vacker presentation. Den saftiga kakan och krämiga glasyren gör sig utmärkt även i denna form. Tänk på att anpassa mängden smet och gräddningstiden efter formens storlek.</p>",
+    "recipeCategory": "Mjuk kaka, Sockerkaka, Fika",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka i sockerkaksform, silvia sockerkaka",
+    "datePublished": "2024-08-07",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka (anpassad för sockerkaksform, ca 1.5L):"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "socker"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1.5,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 75,
+        "product": "smör (smält)"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr (samma som klassisk, ev. mindre mängd):"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 1.5,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "äggula"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "5"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 240 kcal per bit"
+    }
+  },
+  {
+    "id": "silviakaka-pernilla-wahlgren-inspiration",
+    "name": "Silviakaka inspirerad av Pernilla Wahlgren",
+    "slug": "silviakaka-pernilla-wahlgren",
+    "image": [
+      {
+        "id": "silviakaka-pernilla-img",
+        "url": "/images/recipes/silviakaka-pernilla.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Silviakaka med en twist, inspirerad av Pernilla Wahlgren"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Basera på ett klassiskt Silviakaka-recept.",
+        "image": []
+      },
+      {
+        "step": "Pernillas twist kan innebära extra vanilj, en skvätt citron i smeten, eller en särskilt generös glasyr. Undersök hennes kända recept för inspiration.",
+        "image": []
+      },
+      {
+        "step": "Grädda, glasera och toppa med kokos.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 24 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT20M",
+    "totalTime": "PT40M",
+    "description": "<p>Pernilla Wahlgren är känd för sin kärlek till klassiska bakverk! Denna Silviakaka är inspirerad av hennes stil – ofta generös, smakrik och med en personlig touch. Vi har tolkat detta genom att kanske lägga till lite extra av det goda!</p>",
+    "recipeCategory": "Mjuk kaka, Kändisrecept",
+    "recipeCuisine": "Svensk",
+    "keywords": "pernilla wahlgren silviakaka, silviakaka recept, kändisrecept",
+    "datePublished": "2024-08-08",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka (liknande klassisk, eventuellt med mer vanilj):"
+      },
+      {
+        "unit": "st",
+        "amount": 3,
+        "product": "stora ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "msk",
+        "amount": 1,
+        "product": "vaniljsocker (generöst)"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "kallt vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör (smält)"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr (generös mängd):"
+      },
+      {
+        "unit": "g",
+        "amount": 175,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 2,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "stor äggula"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.1",
+      "ratingCount": "120"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 270 kcal per bit"
+    }
+  },
+  {
+    "id": "silviakaka-leila",
+    "name": "Silviakaka à la Leila",
+    "slug": "silviakaka-leila",
+    "image": [
+      {
+        "id": "silviakaka-leila-img",
+        "url": "/images/recipes/silviakaka-leila.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Silviakaka med en touch av Leila Lindholms stil"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en form (t.ex. 24x34 cm).",
+        "image": []
+      },
+      {
+        "step": "Vispa ägg och socker ljust och pösigt.",
+        "image": []
+      },
+      {
+        "step": "Leilas recept kan innefatta en touch av kardemumma eller citronzest i smeten för extra karaktär. Blanda torra ingredienser och vänd ner med vätska och smält smör.",
+        "image": []
+      },
+      {
+        "step": "Grädda ca 20 min. Låt svalna.",
+        "image": []
+      },
+      {
+        "step": "Gör en klassisk Silviakaglasyr, eventuellt med lite extra vanilj. Bred över kakan och toppa med kokos.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 20-24 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT20M",
+    "totalTime": "PT40M",
+    "description": "<p>Leila Lindholm är synonymt med härliga och inspirerande bakverk. Denna Silviakaka är en tolkning av hur Leila skulle kunna göra den – kanske med en liten extra kryddning eller en särskilt vacker presentation. Alltid med fokus på goda råvaror och mycket kärlek!</p>",
+    "recipeCategory": "Mjuk kaka, Fika, Svenska klassiker",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka leila, leila lindholm silviakaka, recept silviakaka",
+    "datePublished": "2024-08-10",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka:"
+      },
+      {
+        "unit": "st",
+        "amount": 3,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "tsk",
+        "amount": 0.5,
+        "product": "malen kardemumma (valfritt, Leilas touch)"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "kallt vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör (smält)"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr:"
+      },
+      {
+        "unit": "g",
+        "amount": 150,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 2,
+        "product": "vaniljsocker (äkta vanilj)"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "äggula"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "125"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 260 kcal per bit"
+    }
+  },
+  {
+    "id": "silviakaka-lindas-bakskola",
+    "name": "Silviakaka från Lindas Bakskola",
+    "slug": "silviakaka-lindas-bakskola",
+    "image": [
+      {
+        "id": "silviakaka-lindas-img",
+        "url": "/images/recipes/silviakaka-lindas-bakskola.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Silviakaka enligt Lindas Bakskolas populära recept"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Följ Lindas Bakskolas specifika instruktioner för hennes populära Silviakaka. Ofta tydliga och enkla att följa.",
+        "image": []
+      },
+      {
+        "step": "Sätt ugnen på 175°C. Förbered en form (ofta långpanna).",
+        "image": []
+      },
+      {
+        "step": "Vispa ägg och socker. Blanda i övriga ingredienser till kakan.",
+        "image": []
+      },
+      {
+        "step": "Grädda tills genomstekt. Låt svalna.",
+        "image": []
+      },
+      {
+        "step": "Gör glasyren och bred på den kalla kakan. Toppa med kokos.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 24 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT20M",
+    "totalTime": "PT40M",
+    "description": "<p>Lindas Bakskola är en favorit hos många hemmabagare för sina enkla och pålitliga recept. Denna Silviakaka är baserad på hennes omtyckta version, som garanterat blir en succé. Tydliga steg och garanterat gott resultat!</p>",
+    "recipeCategory": "Mjuk kaka, Långpannekaka, Fika",
+    "recipeCuisine": "Svensk",
+    "keywords": "silviakaka lindas bakskola, lindas bakskola recept, silviakaka",
+    "datePublished": "2024-08-11",
+    "ingredients": [
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Kaka (typiskt för Lindas stil):"
+      },
+      {
+        "unit": "st",
+        "amount": 3,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "bakpulver"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "mjölk eller vatten"
+      },
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör (smält)"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Glasyr:"
+      },
+      {
+        "unit": "g",
+        "amount": 125,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "florsocker"
+      },
+      {
+        "unit": "msk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "st",
+        "amount": 1,
+        "product": "äggula"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Topping:"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "kokosflingor"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.3",
+      "ratingCount": "15"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 250 kcal per bit"
+    }
+  },
+  {
+    "id": "kladdkaka-recept-klassisk",
+    "name": "Kladdkaka – Klassiskt och Enkelt Recept",
+    "slug": "kladdkaka-recept",
+    "image": [
+      {
+        "id": "kladdkaka-klassisk-img",
+        "url": "/images/recipes/kladdkaka-klassisk.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Klassisk kladdkaka med ett kladdigt inre och pudrat florsocker"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en rund form med löstagbar kant, ca 22-24 cm i diameter.",
+        "image": []
+      },
+      {
+        "step": "Smält smöret i en kastrull. Ta från värmen.",
+        "image": []
+      },
+      {
+        "step": "Rör ner socker och vaniljsocker i det smälta smöret.",
+        "image": []
+      },
+      {
+        "step": "Tillsätt ett ägg i taget och rör om mellan varje.",
+        "image": []
+      },
+      {
+        "step": "Blanda vetemjöl, kakao och salt. Sikta ner i smeten och vänd försiktigt ihop till en jämn smet. Rör inte för mycket!",
+        "image": []
+      },
+      {
+        "step": "Häll smeten i formen. Grädda mitt i ugnen i ca 15-20 minuter. Kakan ska vara fast i kanterna men fortfarande kladdig i mitten.",
+        "image": []
+      },
+      {
+        "step": "Låt kakan svalna helt, gärna i kylskåp i några timmar eller över natten för bästa kladdighet. Pudra med florsocker innan servering.",
+        "image": []
+      }
+    ],
+    "servings": "8-10 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT15M",
+    "totalTime": "PT35M (plus kyltid)",
+    "description": "<p>Kladdkaka är utan tvekan en av Sveriges mest älskade kakor! Med sin sega kant och underbart kladdiga mitt är den en given succé. Detta klassiska recept är enkelt att följa och ger en perfekt kladdkaka varje gång. Servera som den är, pudrad med florsocker, eller med en klick lättvispad grädde och färska bär.</p><h3>Tips för Bästa Kladdkakan</h3><ul><li><strong>Gräddningstid:</strong> Nyckeln till en perfekt kladdkaka är gräddningstiden. Hellre för kort än för lång! Den ska vara dallrig i mitten när du tar ut den.</li><li><strong>Ingredienser:</strong> Använd smör av god kvalitet och en bra kakao för bästa smak.</li><li><strong>Kylning:</strong> Låt kakan svalna ordentligt, helst i kylskåp, för att den ska sätta sig och bli riktigt kladdig.</li></ul>",
+    "recipeCategory": "Kladdkaka, Chokladkaka, Dessert, Fika",
+    "recipeCuisine": "Svensk",
+    "keywords": "kladdkaka recept, recept kladdkaka, recept på kladdkaka, enkel kladdkaka, kladdig kladdkaka",
+    "datePublished": "2024-08-12",
+    "ingredients": [
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "strösocker"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "dl",
+        "amount": 0.75,
+        "product": "kakao av god kvalitet"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "krm",
+        "amount": 1,
+        "product": "salt"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Till servering (valfritt):"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Florsocker"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Lättvispad grädde"
+      },
+      {
+        "unit": "",
+        "amount": null,
+        "product": "Färska bär"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "25"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 300 kcal per bit"
+    }
+  },
+  {
+    "id": "basta-kladdkaka-recept",
+    "name": "Bästa Kladdkaka Receptet (Extra Kladdig & Himmelsk!)",
+    "slug": "basta-kladdkaka-recept",
+    "image": [
+      {
+        "id": "basta-kladdkaka-img",
+        "url": "/images/recipes/basta-kladdkaka.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Den absolut bästa och kladdigaste kladdkakan"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och mjöla (med kakao eller glutenfri mjölmix) en form, ca 20-22 cm.",
+        "image": []
+      },
+      {
+        "step": "Smält smöret. Rör ner socker, kakao, vaniljsocker och salt. Låt svalna något.",
+        "image": []
+      },
+      {
+        "step": "Vispa lätt upp äggen och rör ner dem i smeten. Undvik att vispa in för mycket luft.",
+        "image": []
+      },
+      {
+        "step": "Tillsätt mjölet och rör försiktigt tills precis blandat.",
+        "image": []
+      },
+      {
+        "step": "Häll i formen. Grädda i ca 12-18 minuter. Kakan ska vara mycket lös i mitten.",
+        "image": []
+      },
+      {
+        "step": "Låt svalna helt, gärna i kylskåp över natten för ultimat kladdighet.",
+        "image": []
+      }
+    ],
+    "servings": "8 bitar",
+    "cookingTime": "PT18M",
+    "prepTime": "PT15M",
+    "totalTime": "PT33M (plus lång kyltid)",
+    "description": "<p>Letar du efter det absolut bästa receptet på kladdkaka? Då har du kommit rätt! Denna kladdkaka är himmelskt god, otroligt kladdig och har en intensiv chokladsmak. Hemligheten ligger i rätt proportioner och att inte övergrädda den. Ett måste för alla chokladälskare!</p>",
+    "recipeCategory": "Kladdkaka, Choklad, Dessert, Bästa recept",
+    "recipeCuisine": "Svensk",
+    "keywords": "bästa kladdkaka recept, himmelsk kladdkaka recept, kladdigaste kladdkakan, ultimat kladdkaka",
+    "datePublished": "2024-08-13",
+    "ingredients": [
+      {
+        "unit": "g",
+        "amount": 150,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "stora ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "kakao av hög kvalitet"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "krm",
+        "amount": 1,
+        "product": "salt"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.5",
+      "ratingCount": "125"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 350 kcal per bit"
+    }
+  },
+  {
+    "id": "glutenfri-kladdkaka-recept",
+    "name": "Glutenfri Kladdkaka – Lika Kladdig och God!",
+    "slug": "glutenfri-kladdkaka-recept",
+    "image": [
+      {
+        "id": "kladdkaka-glutenfri-img",
+        "url": "/images/recipes/glutenfri-kladdkaka.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Kladdkaka bakad med glutenfritt mjöl"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en form (ca 22 cm) med glutenfri mjölmix eller kokos.",
+        "image": []
+      },
+      {
+        "step": "Smält smöret. Rör ner socker och vaniljsocker.",
+        "image": []
+      },
+      {
+        "step": "Tillsätt äggen, ett i taget. Blanda glutenfri mjölmix, kakao och salt. Vänd ner i smeten.",
+        "image": []
+      },
+      {
+        "step": "Grädda ca 15-20 min. Den ska vara kladdig. Låt svalna helt.",
+        "image": []
+      }
+    ],
+    "servings": "8 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT15M",
+    "totalTime": "PT35M (plus kyltid)",
+    "description": "<p>Ingen ska behöva missa en god kladdkaka! Detta recept på glutenfri kladdkaka är enkelt att baka och resultatet blir en underbart kladdig och chokladig kaka som alla kan njuta av. Använd en bra glutenfri mjölmix för bästa resultat.</p>",
+    "recipeCategory": "Glutenfritt, Kladdkaka, Choklad",
+    "recipeCuisine": "Svensk",
+    "keywords": "glutenfri kladdkaka recept, kladdkaka recept glutenfri, glutenfri chokladkaka",
+    "datePublished": "2024-08-14",
+    "ingredients": [
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "strösocker"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "glutenfri mjölmix (t.ex. Semper Fin Mix eller Lailas Mjölmix)"
+      },
+      {
+        "unit": "dl",
+        "amount": 0.75,
+        "product": "kakao"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker (glutenfritt)"
+      },
+      {
+        "unit": "krm",
+        "amount": 1,
+        "product": "salt"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "55"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 290 kcal per bit"
+    }
+  },
+  {
+    "id": "kladdkaka-recept-arla-inspiration",
+    "name": "Kladdkaka Recept (Arla Inspirerad)",
+    "slug": "kladdkaka-recept-arla",
+    "image": [
+      {
+        "id": "kladdkaka-arla-img",
+        "url": "/images/recipes/kladdkaka-arla.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Klassisk kladdkaka inspirerad av Arlas recept"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en rund form (ca 24 cm).",
+        "image": []
+      },
+      {
+        "step": "Smält smöret. Rör ner socker, ägg (ett i taget), vaniljsocker och salt.",
+        "image": []
+      },
+      {
+        "step": "Blanda mjöl och kakao, sikta ner i smeten och rör försiktigt till en jämn smet.",
+        "image": []
+      },
+      {
+        "step": "Grädda i ca 15-20 minuter. Kakan ska vara kladdig.",
+        "image": []
+      },
+      {
+        "step": "Låt svalna. Servera gärna med vispad grädde.",
+        "image": []
+      }
+    ],
+    "servings": "8-10 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT10M",
+    "totalTime": "PT30M (plus kyltid)",
+    "description": "<p>Arla har många populära recept, och deras kladdkakor är ofta enkla och pålitliga. Detta recept är inspirerat av den klassiska Arla-stilen för en garanterat lyckad och god kladdkaka. Perfekt för nybörjaren eller när du vill ha ett snabbt och enkelt fika.</p>",
+    "recipeCategory": "Kladdkaka, Chokladkaka, Enkelt recept",
+    "recipeCuisine": "Svensk",
+    "keywords": "kladdkaka recept arla, recept arla kladdkaka, enkel kladdkaka",
+    "datePublished": "2024-08-15",
+    "ingredients": [
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "strösocker"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "msk",
+        "amount": 3,
+        "product": "kakao"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "krm",
+        "amount": 0.5,
+        "product": "salt"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "55"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 310 kcal per bit"
+    }
+  },
+  {
+    "id": "kladdkaka-recept-utan-agg",
+    "name": "Kladdkaka Utan Ägg",
+    "slug": "kladdkaka-recept-utan-agg",
+    "image": [
+      {
+        "id": "kladdkaka-utan-agg-img",
+        "url": "/images/recipes/kladdkaka-utan-agg.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Kladdkaka utan ägg, lika god och kladdig"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en form.",
+        "image": []
+      },
+      {
+        "step": "Smält smöret. Blanda med socker, vaniljsocker, kakao och salt.",
+        "image": []
+      },
+      {
+        "step": "Rör ner mjöl och växtbaserad mjölk (eller vatten) tills smeten är jämn. Använd äggersättning om önskas enligt förpackning.",
+        "image": []
+      },
+      {
+        "step": "Grädda ca 15-20 min. Den ska fortfarande vara kladdig.",
+        "image": []
+      }
+    ],
+    "servings": "8 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT15M",
+    "totalTime": "PT35M (plus kyltid)",
+    "description": "<p>En fantastiskt god och kladdig kladdkaka helt utan ägg! Perfekt för äggallergiker eller när äggen helt enkelt är slut hemma. Denna kaka bevisar att du inte behöver ägg för en perfekt kladdkaka.</p>",
+    "recipeCategory": "Kladdkaka, Äggfritt, Dessert",
+    "recipeCuisine": "Svensk",
+    "keywords": "kladdkaka recept utan ägg, kladdkaka utan ägg, äggfri kladdkaka",
+    "datePublished": "2024-08-16",
+    "ingredients": [
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör (eller mjölkfritt margarin för veganskt)"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "kakao"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "krm",
+        "amount": 1,
+        "product": "salt"
+      },
+      {
+        "unit": "dl",
+        "amount": 0.5,
+        "product": "växtbaserad mjölk eller vatten"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "55"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 280 kcal per bit"
+    }
+  },
+  {
+    "id": "vegansk-kladdkaka-recept",
+    "name": "Vegansk Kladdkaka (Helt Växtbaserad)",
+    "slug": "vegansk-kladdkaka-recept",
+    "image": [
+      {
+        "id": "kladdkaka-vegansk-img",
+        "url": "/images/recipes/vegansk-kladdkaka.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Vegansk kladdkaka, rik på chokladsmak"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en form med veganskt fett och t.ex. kokos.",
+        "image": []
+      },
+      {
+        "step": "Smält mjölkfritt margarin. Blanda med socker, vaniljsocker, kakao och salt.",
+        "image": []
+      },
+      {
+        "step": "Rör ner mjöl och växtbaserad dryck (t.ex. havremjölk) till en slät smet. Undvik att överarbeta.",
+        "image": []
+      },
+      {
+        "step": "Häll i formen och grädda i ca 18-22 minuter. Kakan ska vara kladdig i mitten.",
+        "image": []
+      },
+      {
+        "step": "Låt svalna helt innan servering, gärna i kylskåp.",
+        "image": []
+      }
+    ],
+    "servings": "8-10 bitar",
+    "cookingTime": "PT22M",
+    "prepTime": "PT15M",
+    "totalTime": "PT37M (plus kyltid)",
+    "description": "<p>En otroligt god och helt vegansk kladdkaka som garanterat kommer att imponera! Rik chokladsmak och perfekt kladdig konsistens, helt utan animaliska produkter. Enkel att baka och älskad av alla.</p>",
+    "recipeCategory": "Veganskt, Kladdkaka, Choklad, Mjölkfritt, Äggfritt",
+    "recipeCuisine": "Svensk",
+    "keywords": "vegansk kladdkaka recept, vegansk kladdkaka, växtbaserad kladdkaka",
+    "datePublished": "2024-08-17",
+    "ingredients": [
+      {
+        "unit": "g",
+        "amount": 125,
+        "product": "mjölkfritt margarin"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "strösocker"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "kakao"
+      },
+      {
+        "unit": "tsk",
+        "amount": 2,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "krm",
+        "amount": 1,
+        "product": "salt"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "växtbaserad dryck (t.ex. havre, soja, mandel)"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "55"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 290 kcal per bit"
+    }
+  },
+  {
+    "id": "kladdkaka-i-langpanna-recept",
+    "name": "Kladdkaka i Långpanna",
+    "slug": "kladdkaka-i-langpanna-recept",
+    "image": [
+      {
+        "id": "kladdkaka-langpanna-img",
+        "url": "/images/recipes/kladdkaka-langpanna.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Kladdkaka bakad i långpanna, perfekt för många"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Klä en långpanna (ca 25x35 cm) med bakplåtspapper.",
+        "image": []
+      },
+      {
+        "step": "Smält smöret. Blanda med socker, ägg, vaniljsocker.",
+        "image": []
+      },
+      {
+        "step": "Rör ner mjöl, kakao och salt. Blanda till en jämn smet.",
+        "image": []
+      },
+      {
+        "step": "Bred ut smeten i långpannan. Grädda ca 20-25 minuter.",
+        "image": []
+      },
+      {
+        "step": "Låt svalna och skär i rutor. Pudra med florsocker.",
+        "image": []
+      }
+    ],
+    "servings": "Ca 20-30 rutor",
+    "cookingTime": "PT25M",
+    "prepTime": "PT15M",
+    "totalTime": "PT40M (plus kyltid)",
+    "description": "<p>Kladdkaka i långpanna är lösningen när du behöver bjuda många på fika! Samma underbara kladdighet och chokladsmak, men i ett format som räcker till fler. Enkelt att göra och alltid uppskattat.</p>",
+    "recipeCategory": "Långpannekaka, Kladdkaka, Choklad",
+    "recipeCuisine": "Svensk",
+    "keywords": "kladdkaka i långpanna recept, kladdkaka långpanna recept, recept kladdkaka i långpanna",
+    "datePublished": "2024-08-18",
+    "ingredients": [
+      {
+        "unit": "g",
+        "amount": 200,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 4.5,
+        "product": "strösocker"
+      },
+      {
+        "unit": "st",
+        "amount": 4,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 3,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "kakao"
+      },
+      {
+        "unit": "msk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "salt"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "35"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 150 kcal per ruta (beroende på storlek)"
+    }
+  },
+  {
+    "id": "kladdkaka-recept-utan-smor",
+    "name": "Kladdkaka Utan Smör (med Olja)",
+    "slug": "kladdkaka-recept-utan-smor",
+    "image": [
+      {
+        "id": "kladdkaka-utan-smor-img",
+        "url": "/images/recipes/kladdkaka-utan-smor.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Kladdkaka bakad med olja istället för smör"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en form.",
+        "image": []
+      },
+      {
+        "step": "Blanda socker, ägg, vaniljsocker och olja.",
+        "image": []
+      },
+      {
+        "step": "Sikta ner mjöl, kakao och salt. Rör till en jämn smet.",
+        "image": []
+      },
+      {
+        "step": "Grädda ca 15-20 min. Låt svalna.",
+        "image": []
+      }
+    ],
+    "servings": "8 bitar",
+    "cookingTime": "PT20M",
+    "prepTime": "PT10M",
+    "totalTime": "PT30M (plus kyltid)",
+    "description": "<p>Vill du baka en kladdkaka men har inget smör hemma, eller föredrar du att använda olja? Inga problem! Denna kladdkaka utan smör blir minst lika kladdig och god, med en härligt mjuk konsistens.</p>",
+    "recipeCategory": "Kladdkaka, Chokladkaka, Utan smör",
+    "recipeCuisine": "Svensk",
+    "keywords": "kladdkaka recept utan smör, kladdkaka utan smör recept, recept på kladdkaka utan smör, kladdkaka med olja",
+    "datePublished": "2024-08-19",
+    "ingredients": [
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "neutral olja (t.ex. rapsolja)"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "strösocker"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "dl",
+        "amount": 0.75,
+        "product": "kakao"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "krm",
+        "amount": 1,
+        "product": "salt"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "55"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 300 kcal per bit"
+    }
+  },
+  {
+    "id": "vit-kladdkaka-recept",
+    "name": "Vit Kladdkaka Recept",
+    "slug": "vit-kladdkaka-recept",
+    "image": [
+      {
+        "id": "vit-kladdkaka-img",
+        "url": "/images/recipes/vit-kladdkaka.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Ljus och krämig vit kladdkaka"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en form (ca 22 cm).",
+        "image": []
+      },
+      {
+        "step": "Smält smöret. Hacka den vita chokladen.",
+        "image": []
+      },
+      {
+        "step": "Rör ner socker och vaniljsocker i det smälta smöret. Tillsätt äggen, ett i taget.",
+        "image": []
+      },
+      {
+        "step": "Blanda mjöl och salt, vänd ner i smeten. Rör sist ner den hackade vita chokladen.",
+        "image": []
+      },
+      {
+        "step": "Grädda ca 20-25 min. Kakan ska vara kladdig. Låt svalna helt.",
+        "image": []
+      }
+    ],
+    "servings": "8-10 bitar",
+    "cookingTime": "PT25M",
+    "prepTime": "PT15M",
+    "totalTime": "PT40M (plus kyltid)",
+    "description": "<p>En ljuvlig och annorlunda variant av den klassiska kladdkakan! Vit kladdkaka är söt, seg och underbart krämig med en mild smak av vit choklad. Perfekt för den som vill prova något nytt eller inte är så förtjust i mörk choklad.</p>",
+    "recipeCategory": "Kladdkaka, Vit choklad, Dessert",
+    "recipeCuisine": "Svensk",
+    "keywords": "vit kladdkaka recept, vit chokladkladdkaka, recept vit kladdkaka",
+    "datePublished": "2024-08-20",
+    "ingredients": [
+      {
+        "unit": "g",
+        "amount": 100,
+        "product": "smör"
+      },
+      {
+        "unit": "g",
+        "amount": 150,
+        "product": "vit choklad av god kvalitet, hackad"
+      },
+      {
+        "unit": "dl",
+        "amount": 2,
+        "product": "strösocker"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 1.5,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "krm",
+        "amount": 0.5,
+        "product": "salt"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.7",
+      "ratingCount": "55"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 320 kcal per bit"
+    }
+  },
+  {
+    "id": "kladdkaka-recept-med-choklad",
+    "name": "Kladdkaka med Extra Choklad",
+    "slug": "kladdkaka-recept-med-choklad",
+    "elsaIntro": "<p>Hej kära bakvänner! Idag ska vi dyka ner i ett av de mest älskade recepten från den svenska fikaskatten – den klassiska Silviakakan! För mig är det här mer än bara en kaka; det är en bit barndom, en doft av trygghet och smaken av otaliga glada stunder. Mormors gamla receptbok är grunden, men jag har lagt till några små knep för att göra den extra saftig och glasyren oemotståndligt krämig. Följ med mig så bakar vi den perfekta Silviakakan tillsammans!</p>",
+    "image": [
+      {
+        "id": "kladdkaka-extra-choklad-img",
+        "url": "/images/recipes/kladdkaka-extra-choklad.jpg",
+        "extension": "jpg",
+        "width": 1200,
+        "height": 800,
+        "alt": "Extra chokladig kladdkaka med bitar av mörk choklad"
+      }
+    ],
+    "steps": [
+      {
+        "step": "Sätt ugnen på 175°C. Smörj och bröa en form.",
+        "image": []
+      },
+      {
+        "step": "Smält smöret. Hacka mörk choklad (ca 70%).",
+        "image": []
+      },
+      {
+        "step": "Rör ner socker, vaniljsocker i smöret. Tillsätt ägg.",
+        "image": []
+      },
+      {
+        "step": "Blanda mjöl, kakao, salt. Vänd ner i smeten tillsammans med den hackade chokladen.",
+        "image": []
+      },
+      {
+        "step": "Grädda ca 18-22 min. Låt svalna för maximal kladdighet.",
+        "image": []
+      }
+    ],
+    "servings": "8-10 bitar",
+    "cookingTime": "PT22M",
+    "prepTime": "PT15M",
+    "totalTime": "PT37M (plus kyltid)",
+    "description": "<p>För den sanna chokladälskaren! Denna kladdkaka är laddad med extra choklad, både i form av kakao och hackad mörk choklad, för en intensiv och oemotståndlig smakupplevelse. Seg i kanterna och underbart kladdig i mitten.</p>",
+    "recipeCategory": "Kladdkaka, Choklad, Dessert",
+    "recipeCuisine": "Svensk",
+    "keywords": "kladdkaka recept med choklad, choklad kladdkaka recept, extra chokladig kladdkaka",
+    "datePublished": "2024-08-21",
+    "ingredients": [
+      {
+        "unit": "g",
+        "amount": 125,
+        "product": "smör"
+      },
+      {
+        "unit": "dl",
+        "amount": 2.5,
+        "product": "strösocker"
+      },
+      {
+        "unit": "st",
+        "amount": 2,
+        "product": "ägg"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "vetemjöl"
+      },
+      {
+        "unit": "dl",
+        "amount": 1,
+        "product": "kakao av god kvalitet"
+      },
+      {
+        "unit": "g",
+        "amount": 50,
+        "product": "mörk choklad (ca 70%), hackad"
+      },
+      {
+        "unit": "tsk",
+        "amount": 1,
+        "product": "vaniljsocker"
+      },
+      {
+        "unit": "krm",
+        "amount": 1,
+        "product": "salt"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.2",
+      "ratingCount": "85"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "Cirka 340 kcal per bit"
+    }
+  }
+]

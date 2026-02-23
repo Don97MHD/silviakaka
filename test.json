@@ -1,0 +1,102 @@
+{
+  "id": "citron-och-vallmokaka1",
+  "name": "Saftig Citron- och Vallmokaka (Test)11",
+  "slug": "citron-och-vallmokaka1",
+  "image": [],
+  "steps": [
+    {
+      "step": "Sätt ugnen på 175°C. Smörj och bröa en rund form (ca 22 cm i diameter).",
+      "image": [] 
+    },
+    {
+      "step": "Vispa smör, socker och citronskal ljust och fluffigt. Tillsätt ett ägg i taget och vispa väl.",
+      "image": []
+    },
+    {
+      "step": "Blanda de torra ingredienserna (mjöl, bakpulver, vallmofrön, salt) i en separat skål.",
+      "image": []
+    },
+    {
+      "step": "Varva ner mjölblandningen och mjölken i smeten. Rör försiktigt tills allt är precis blandat.",
+      "image": []
+    },
+    {
+      "step": "Häll smeten i formen och grädda i ca 30-35 minuter, eller tills en provsticka kommer ut torr.",
+      "image": []
+    },
+    {
+      "step": "Låt kakan svalna helt innan du dekorerar med glasyr.",
+      "image": []
+    }
+  ],
+  "servings": "10-12 bitar",
+  "cookingTime": "PT35M",
+  "prepTime": "PT20M",
+  "totalTime": "PT55M",
+  "description": "<p>Detta är ett <b>testrecept</b> för en underbart saftig och smakrik kaka med en frisk smak av citron och en härlig textur från vallmofrön. Perfekt till fikat!</p>",
+  "recipeCategory": "Mjuk kaka, Fika",
+  "recipeCuisine": "Svensk",
+  "keywords": "citronkaka, vallmo, kaka, fika, test",
+  "datePublished": "2025-06-28",
+  "ingredients": [
+    {
+      "unit": "",
+      "amount": "",
+      "product": "Kaka:"
+    },
+    {
+      "unit": "g",
+      "amount": "150",
+      "product": "Rumsvarmt smör"
+    },
+    {
+      "unit": "dl",
+      "amount": "2.5",
+      "product": "Strösocker"
+    },
+    {
+      "unit": "st",
+      "amount": "3",
+      "product": "Ägg"
+    },
+    {
+      "unit": "st",
+      "amount": "1",
+      "product": "Rivet skal från 1 citron"
+    },
+    {
+      "unit": "dl",
+      "amount": "3.5",
+      "product": "Vetemjöl"
+    },
+    {
+      "unit": "tsk",
+      "amount": "2",
+      "product": "Bakpulver"
+    },
+    {
+      "unit": "msk",
+      "amount": "2",
+      "product": "Blå vallmofrön"
+    },
+    {
+      "unit": "krm",
+      "amount": "1",
+      "product": "Salt"
+    },
+    {
+      "unit": "dl",
+      "amount": "1.5",
+      "product": "Mjölk"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "1"
+  },
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "Cirka 320 kcal per bit"
+  }
+}
