@@ -3,7 +3,8 @@ import { useTranslation } from '../../context/TranslationContext';
 import { PlusCircleIcon, MinusCircleIcon, UserGroupIcon } from '@heroicons/react/outline';
 
 const parseServings = (servingString) => {
-    if (!servingString) return 4;
+    // حماية: إذا كانت القيمة فارغة نرجع 4 كافتراضي
+    if (!servingString) return 4; 
     const match = servingString.match(/\d+/);
     return match ? parseInt(match[0], 10) : 4;
 };
@@ -15,7 +16,9 @@ const formatAmount = (num) => {
 
 const RecipeInfo = ({ recipe }) => {
     const { t } = useTranslation();
-    const originalServings = useMemo(() => parseServings(recipe.servings), [recipe.servings]);
+    
+    // حماية باستخدام الاختصار || ""
+    const originalServings = useMemo(() => parseServings(recipe?.servings || ""), [recipe?.servings]);
     const [currentServings, setCurrentServings] = useState(originalServings);
 
     const handleIncrease = useCallback(() => setCurrentServings(prev => prev + 1), []);
@@ -42,7 +45,8 @@ const RecipeInfo = ({ recipe }) => {
             </div>
 
             <ul className="space-y-2">
-                {recipe.ingredients.map((ingredient, index) => {
+                {/* حماية: نستخدم مصفوفة فارغة إذا كانت المكونات غير موجودة */}
+                {(recipe?.ingredients || []).map((ingredient, index) => {
                     const originalAmount = parseFloat(ingredient.amount);
                     let scaledAmountText = ingredient.amount || '';
 

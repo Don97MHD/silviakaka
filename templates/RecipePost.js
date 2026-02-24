@@ -1,7 +1,7 @@
-
+import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link'; // <-- ضروري للبريدكامب
+import Link from 'next/link'; 
 import Layout from '../layouts/layout';
 import RecipeSteps from '../components/recipe/RecipeSteps';
 import FlotiqImage from '../lib/FlotiqImage';
@@ -11,7 +11,7 @@ import { useTranslation } from '../context/TranslationContext';
 import config from '../lib/config';
 import RecipeInfo from '../components/recipe/RecipeInfo';
 import StarRating from '../components/StarRating';
-import { ClockIcon, FireIcon, ChevronRightIcon, HomeIcon } from '@heroicons/react/outline'; // استيراد أيقونات البريدكامب
+import { ClockIcon, FireIcon, ChevronRightIcon, HomeIcon } from '@heroicons/react/outline';
 
 const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
     const { t } = useTranslation();
@@ -21,11 +21,16 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
     }
 
     const recipe = post;
-    const {otherRecipes} = pageContext;
+    // حماية في حال كان pageContext غير موجود
+    const otherRecipes = pageContext?.otherRecipes || [];
     const currentUrl = typeof window !== 'undefined' ? window.location.href : `${config.siteMetadata.siteUrl}/recept/${recipe.slug}`;
 
-    // استخراج أول تصنيف للوصفة (إذا وجد) لاستخدامه في البريدكامب
-    const firstCategory = recipe.recipeCategory ? recipe.recipeCategory.split(',')[0].trim() : null;
+    // تأمين النصوص للوصف والتصنيف لتجنب خطأ split و replace
+    const rawDescription = recipe.description || "";
+    const cleanDescription = rawDescription.replace(/<[^>]*>?/gm, '');
+    
+    const recipeCat = recipe.recipeCategory || "";
+    const firstCategory = recipeCat ? recipeCat.split(',')[0].trim() : null;
 
     // Schema code...
     const schemaAuthor = config.author || { "@type": "Organization", "name": "Silviakaka" };
@@ -34,7 +39,7 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
         "@type": "Recipe",
         "name": recipe.name,
         "author": schemaAuthor,
-        "description": recipe.description.replace(/<[^>]*>?/gm, ''),
+        "description": cleanDescription,
         "image": recipe.image?.map(img => `${config.siteMetadata.siteUrl}${img.url}`),
         "datePublished": recipe.datePublished,
         "recipeCuisine": recipe.recipeCuisine,
@@ -54,13 +59,14 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
         "recipeInstructions": recipe.steps?.map((step, index) => ({
             "@type": "HowToStep",
             "name": `Steg ${index + 1}`,
-            "text": step.step,
+            "text": step.step || "",
             "url": `${config.siteMetadata.siteUrl}/recept/${recipe.slug}#step${index + 1}`,
             "image": step.image && step.image.length > 0
                 ? `${config.siteMetadata.siteUrl}${step.image[0].url}`
                 : undefined
         })).filter(step => step.text),
     };
+
     const breadcrumbSchema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -77,15 +83,15 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                 "name": t('recipes'),
                 "item": `${config.siteMetadata.siteUrl}/recept`
             },
-            ...(recipe.recipeCategory ? [{
+            ...(firstCategory ? [{
                 "@type": "ListItem",
                 "position": 3,
-                "name": recipe.recipeCategory.split(',')[0].trim(),
+                "name": firstCategory,
                 "item": `${config.siteMetadata.siteUrl}/recept` 
             }] : []),
             {
                 "@type": "ListItem",
-                "position": recipe.recipeCategory ? 4 : 3,
+                "position": firstCategory ? 4 : 3,
                 "name": recipe.name,
                 "item": currentUrl
             }
@@ -103,20 +109,18 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
             categories={categories}
             additionalClass={['bg-[#faf9f7] overflow-hidden']}
             title={recipe.name}
-            description={recipe.description.replace(/<[^>]*>?/gm, '').substring(0, 160) + '...'}
+            description={cleanDescription.substring(0, 160) + '...'}
         >
             <Head>
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(recipeSchema) }} />
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
             </Head>
 
-            {/* أشكال غرافيكية عائمة */}
             <div className="absolute top-0 left-0 w-full h-[800px] overflow-hidden pointer-events-none z-0">
                 <div className="absolute top-[-10%] left-[-10%] w-96 h-96 bg-yellow-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
                 <div className="absolute top-[20%] right-[-5%] w-72 h-72 bg-orange-100 rounded-full mix-blend-multiply filter blur-3xl opacity-50"></div>
             </div>
 
-            {/* مسار التنقل الخرافي (Breadcrumbs) بدلاً من زر الرجوع */}
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-2">
                 <nav className="flex text-sm text-gray-500 font-medium" aria-label="Breadcrumb">
                     <ol className="inline-flex items-center space-x-1 md:space-x-3">
@@ -138,7 +142,6 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                             <li className="hidden sm:block">
                                 <div className="flex items-center">
                                     <ChevronRightIcon className="w-4 h-4 text-gray-400 mx-1" />
-                                    {/* توجيه لصفحة البحث بالقسم أو التصنيف إذا وجد */}
                                     <span className="text-gray-500 hover:text-secondary transition-colors cursor-default">
                                         {firstCategory}
                                     </span>
@@ -156,7 +159,6 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
             </div>
 
             <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-                {/* 1. الترويسة */}
                 <div className="text-center max-w-3xl mx-auto mb-8 mt-6">
                     {recipe.aggregateRating && (
                         <div className="flex items-center justify-center gap-1 mb-4">
@@ -173,19 +175,18 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                         {recipe.prepTime && (
                             <div className="flex items-center gap-1.5 px-4 py-1.5 bg-white text-gray-600 rounded-full text-xs font-bold border border-gray-200 shadow-sm">
                                 <ClockIcon className="h-4 w-4 text-blue-400" />
-                                <span>{recipe.prepTime.replace('PT','').replace('M', ` ${t('minutes_short')}`)}</span>
+                                <span>{(recipe.prepTime || "").replace('PT','').replace('M', ` ${t('minutes_short')}`)}</span>
                             </div>
                         )}
                         {recipe.cookingTime && (
                             <div className="flex items-center gap-1.5 px-4 py-1.5 bg-white text-gray-600 rounded-full text-xs font-bold border border-gray-200 shadow-sm">
                                 <FireIcon className="h-4 w-4 text-orange-400" />
-                                <span>{recipe.cookingTime.replace('PT','').replace('M', ` ${t('minutes_short')}`)}</span>
+                                <span>{(recipe.cookingTime || "").replace('PT','').replace('M', ` ${t('minutes_short')}`)}</span>
                             </div>
                         )}
                     </div>
                 </div>
 
-                {/* 2. الصورة الرئيسية */}
                 <div className="w-full relative aspect-[16/9] md:aspect-[21/9] rounded-[2rem] overflow-hidden shadow-xl border-4 border-white bg-white">
                     <Image
                         src={FlotiqImage.getSrc(recipe.image?.[0], 1920, 1080)}
@@ -197,7 +198,6 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                     />
                 </div>
 
-                {/* فاصل مزخرف رائع بعد الصورة */}
                 <div className="flex justify-center items-center my-10 opacity-40">
                     <svg width="250" height="24" viewBox="0 0 250 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 12H105M145 12H240" stroke="#D4AF37" strokeWidth="2" strokeLinecap="round"/>
@@ -206,21 +206,15 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                     </svg>
                 </div>
 
-                {/* 3. شبكة المحتوى (المكونات يمين، والخطوات يسار) */}
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start mb-12">
-                    
-                    {/* المكونات (Sticky) */}
                     <div className="lg:col-span-5 xl:col-span-4 relative">
                         <div className="sticky top-24 z-10">
                             <RecipeInfo recipe={recipe} />
                         </div>
                     </div>
-
-                    {/* الخطوات + صندوق التقييم */}
                     <div className="lg:col-span-7 xl:col-span-8 flex flex-col gap-8">
                         <div className="bg-white p-6 md:p-10 rounded-[2rem] shadow-sm border border-gray-100 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-40 h-40 bg-orange-50 rounded-full -mr-16 -mt-16 blur-2xl pointer-events-none"></div>
-                            
                             <RecipeSteps 
                                 steps={recipe.steps || []} 
                                 additionalClass={['bg-transparent relative z-10 w-full max-w-full']} 
@@ -228,7 +222,6 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                             />
                         </div>
 
-                        {/* صندوق التقييم والمشاركة */}
                         <div className="bg-white p-6 md:p-8 rounded-[2rem] shadow-sm border border-gray-100">
                             <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
                                 <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
@@ -254,14 +247,13 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                     </div>
                 </div>
 
-                {/* 4. الوصف (نقل للأسفل) */}
                 <div className="bg-white p-8 md:p-14 rounded-[2rem] shadow-sm border border-gray-100 max-w-5xl mx-auto">
                     <h2 className="uppercase tracking-widest text-sm font-extrabold text-gray-400 mb-8 flex items-center gap-4">
                         {t('description')}
                         <span className="h-px flex-grow bg-gray-200"></span>
                     </h2>
                     <div className="prose prose-base md:prose-lg text-gray-600 leading-relaxed font-medium max-w-none prose-a:text-secondary prose-a:font-bold hover:prose-a:text-orange-500 prose-a:transition-colors">
-                        <div dangerouslySetInnerHTML={{ __html: recipe.description }} />
+                        <div dangerouslySetInnerHTML={{ __html: rawDescription }} />
                     </div>
                 </div>
             </main>
