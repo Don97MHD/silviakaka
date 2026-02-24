@@ -1,6 +1,7 @@
+
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link'; 
+import Link from 'next/link'; // <-- ضروري للبريدكامب
 import Layout from '../layouts/layout';
 import RecipeSteps from '../components/recipe/RecipeSteps';
 import FlotiqImage from '../lib/FlotiqImage';
@@ -10,18 +11,7 @@ import { useTranslation } from '../context/TranslationContext';
 import config from '../lib/config';
 import RecipeInfo from '../components/recipe/RecipeInfo';
 import StarRating from '../components/StarRating';
-import { ClockIcon, FireIcon, ChevronRightIcon, HomeIcon } from '@heroicons/react/outline';
-
-// دالة الحماية القصوى: تضمن أن القيمة دائماً نص، وتمنع انهيار React نهائياً
-const safeString = (value) => {
-    if (!value) return "";
-    if (typeof value === 'string') return value;
-    if (typeof value === 'object') {
-        // إذا كان كائناً يحتوي على لغات (مثل تصنيفاتك)
-        return value.sv || value.en || Object.values(value)[0] || JSON.stringify(value);
-    }
-    return String(value);
-};
+import { ClockIcon, FireIcon, ChevronRightIcon, HomeIcon } from '@heroicons/react/outline'; // استيراد أيقونات البريدكامب
 
 const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
     const { t } = useTranslation();
@@ -31,28 +21,20 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
     }
 
     const recipe = post;
-    const {otherRecipes} = pageContext || {};
+    const {otherRecipes} = pageContext;
     const currentUrl = typeof window !== 'undefined' ? window.location.href : `${config.siteMetadata.siteUrl}/recept/${recipe.slug}`;
 
-    // === تطبيق دالة الحماية على كل البيانات القادمة من قاعدة البيانات ===
-    const safeName = safeString(recipe.name);
-    const rawDescription = safeString(recipe.description);
-    const cleanDescription = rawDescription.replace(/<[^>]*>?/gm, '');
-    
-    const recipeCat = safeString(recipe.recipeCategory);
-    const firstCategory = recipeCat ? recipeCat.split(',')[0].trim() : null;
-
-    const prepTimeSafe = safeString(recipe.prepTime).replace('PT','').replace('M', ` ${t('minutes_short')}`);
-    const cookTimeSafe = safeString(recipe.cookingTime).replace('PT','').replace('M', ` ${t('minutes_short')}`);
+    // استخراج أول تصنيف للوصفة (إذا وجد) لاستخدامه في البريدكامب
+    const firstCategory = recipe.recipeCategory ? recipe.recipeCategory.split(',')[0].trim() : null;
 
     // Schema code...
     const schemaAuthor = config.author || { "@type": "Organization", "name": "Silviakaka" };
     const recipeSchema = {
         "@context": "https://schema.org/",
         "@type": "Recipe",
-        "name": safeName, // تم استخدام النص الآمن
+        "name": recipe.name,
         "author": schemaAuthor,
-        "description": cleanDescription,
+        "description": recipe.description.replace(/<[^>]*>?/gm, ''),
         "image": recipe.image?.map(img => `${config.siteMetadata.siteUrl}${img.url}`),
         "datePublished": recipe.datePublished,
         "recipeCuisine": recipe.recipeCuisine,
@@ -61,25 +43,24 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
         "totalTime": recipe.totalTime,
         "keywords": recipe.keywords,
         "recipeYield": recipe.servings ? recipe.servings.toString() : "1 kaka",
-        "recipeCategory": recipeCat, // تم استخدام النص الآمن
+        "recipeCategory": recipe.recipeCategory,
         "nutrition": recipe.nutrition,
         "aggregateRating": recipe.aggregateRating ? {
             "@type": "AggregateRating",
             "ratingValue": recipe.aggregateRating.ratingValue,
             "ratingCount": recipe.aggregateRating.ratingCount
         } : undefined,
-        "recipeIngredient": (recipe.ingredients || []).map(i => `${i.amount || ''} ${i.unit || ''} ${safeString(i.product)}`.trim()),
-        "recipeInstructions": (recipe.steps || []).map((step, index) => ({
+        "recipeIngredient": recipe.ingredients?.map(i => `${i.amount || ''} ${i.unit || ''} ${i.product}`.trim()),
+        "recipeInstructions": recipe.steps?.map((step, index) => ({
             "@type": "HowToStep",
             "name": `Steg ${index + 1}`,
-            "text": safeString(step.step), // تم استخدام النص الآمن
+            "text": step.step,
             "url": `${config.siteMetadata.siteUrl}/recept/${recipe.slug}#step${index + 1}`,
             "image": step.image && step.image.length > 0
                 ? `${config.siteMetadata.siteUrl}${step.image[0].url}`
                 : undefined
         })).filter(step => step.text),
     };
-
     const breadcrumbSchema = {
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
@@ -96,26 +77,24 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                 "name": t('recipes'),
                 "item": `${config.siteMetadata.siteUrl}/recept`
             },
-            ...(firstCategory ? [{
+            ...(recipe.recipeCategory ? [{
                 "@type": "ListItem",
                 "position": 3,
-                "name": firstCategory,
+                "name": recipe.recipeCategory.split(',')[0].trim(),
                 "item": `${config.siteMetadata.siteUrl}/recept` 
             }] : []),
             {
                 "@type": "ListItem",
-                "position": firstCategory ? 4 : 3,
-                "name": safeName, // تم استخدام النص الآمن
+                "position": recipe.recipeCategory ? 4 : 3,
+                "name": recipe.name,
                 "item": currentUrl
             }
         ]
     };
 
     const copyToClipboard = () => {
-        if(typeof navigator !== 'undefined') {
-             navigator.clipboard.writeText(currentUrl);
-             alert('Länken har kopierats!'); 
-        }
+        navigator.clipboard.writeText(currentUrl);
+        alert('Länken har kopierats!'); 
     };
 
     return (
@@ -123,8 +102,8 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
             allRecipesForSearch={allRecipes} 
             categories={categories}
             additionalClass={['bg-[#faf9f7] overflow-hidden']}
-            title={safeName} // تم استخدام النص الآمن
-            description={cleanDescription.substring(0, 160) + '...'}
+            title={recipe.name}
+            description={recipe.description.replace(/<[^>]*>?/gm, '').substring(0, 160) + '...'}
         >
             <Head>
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(recipeSchema) }} />
@@ -159,6 +138,7 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                             <li className="hidden sm:block">
                                 <div className="flex items-center">
                                     <ChevronRightIcon className="w-4 h-4 text-gray-400 mx-1" />
+                                    {/* توجيه لصفحة البحث بالقسم أو التصنيف إذا وجد */}
                                     <span className="text-gray-500 hover:text-secondary transition-colors cursor-default">
                                         {firstCategory}
                                     </span>
@@ -168,7 +148,7 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                         <li aria-current="page">
                             <div className="flex items-center">
                                 <ChevronRightIcon className="w-4 h-4 text-gray-400 mx-1" />
-                                <span className="text-gray-800 font-semibold truncate max-w-[150px] sm:max-w-xs">{safeName}</span>
+                                <span className="text-gray-800 font-semibold truncate max-w-[150px] sm:max-w-xs">{recipe.name}</span>
                             </div>
                         </li>
                     </ol>
@@ -186,20 +166,20 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                     )}
 
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-gray-800 font-sora leading-tight mb-6 tracking-tight">
-                        {safeName} {/* تم استخدام النص الآمن */}
+                        {recipe.name}
                     </h1>
                     
                     <div className="flex flex-wrap items-center justify-center gap-3">
                         {recipe.prepTime && (
                             <div className="flex items-center gap-1.5 px-4 py-1.5 bg-white text-gray-600 rounded-full text-xs font-bold border border-gray-200 shadow-sm">
                                 <ClockIcon className="h-4 w-4 text-blue-400" />
-                                <span>{prepTimeSafe}</span>
+                                <span>{recipe.prepTime.replace('PT','').replace('M', ` ${t('minutes_short')}`)}</span>
                             </div>
                         )}
                         {recipe.cookingTime && (
                             <div className="flex items-center gap-1.5 px-4 py-1.5 bg-white text-gray-600 rounded-full text-xs font-bold border border-gray-200 shadow-sm">
                                 <FireIcon className="h-4 w-4 text-orange-400" />
-                                <span>{cookTimeSafe}</span>
+                                <span>{recipe.cookingTime.replace('PT','').replace('M', ` ${t('minutes_short')}`)}</span>
                             </div>
                         )}
                     </div>
@@ -209,7 +189,7 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                 <div className="w-full relative aspect-[16/9] md:aspect-[21/9] rounded-[2rem] overflow-hidden shadow-xl border-4 border-white bg-white">
                     <Image
                         src={FlotiqImage.getSrc(recipe.image?.[0], 1920, 1080)}
-                        alt={safeName}
+                        alt={recipe.name}
                         layout="fill"
                         objectFit="cover"
                         className="hover:scale-105 transition-transform duration-1000 ease-out"
@@ -241,16 +221,6 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                         <div className="bg-white p-6 md:p-10 rounded-[2rem] shadow-sm border border-gray-100 relative overflow-hidden">
                             <div className="absolute top-0 right-0 w-40 h-40 bg-orange-50 rounded-full -mr-16 -mt-16 blur-2xl pointer-events-none"></div>
                             
-                            {/* أزرار القفز السريع */}
-                            <div className="mb-8 flex flex-col items-center">
-                                <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-4">Gå direkt till steg</span>
-                                <div className="flex flex-wrap justify-center gap-3">
-                                    {(recipe.steps || []).map((_, index) => (
-                                        <a key={index} href={`#step-${index + 1}`} className="w-9 h-9 rounded-full bg-gray-50 border border-gray-100 flex items-center justify-center text-xs font-bold text-gray-500 hover:bg-secondary hover:text-white transition-all shadow-sm">{index + 1}</a>
-                                    ))}
-                                </div>
-                            </div>
-                            
                             <RecipeSteps 
                                 steps={recipe.steps || []} 
                                 additionalClass={['bg-transparent relative z-10 w-full max-w-full']} 
@@ -267,7 +237,7 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                                         <span className="text-2xl font-sora font-extrabold text-gray-800 leading-none">
                                             {recipe.aggregateRating?.ratingValue || '5.0'}
                                         </span>
-                                        <StarRating rating={Number(recipe.aggregateRating?.ratingValue) || 5} starSize="h-5 w-5" color="text-secondary" />
+                                        <StarRating rating={recipe.aggregateRating?.ratingValue || 5} starSize="h-5 w-5" color="text-secondary" />
                                     </div>
                                 </div>
                                 <div className="h-px w-full sm:h-12 sm:w-px bg-gray-100"></div>
@@ -275,7 +245,7 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                                     <span className="text-[10px] font-black text-gray-400 uppercase tracking-widest mb-2">Dela med vänner</span>
                                     <div className="flex items-center gap-2">
                                         <a href={`https://www.facebook.com/sharer/sharer.php?u=${currentUrl}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 bg-gray-50 text-[#1877F2] hover:bg-[#1877F2] hover:text-white rounded-full transition-all shadow-sm"><svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
-                                        <a href={`https://pinterest.com/pin/create/button/?url=${currentUrl}&media=${config.siteMetadata.siteUrl}${recipe.image?.[0]?.url}&description=${safeName}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 bg-gray-50 text-[#E60023] hover:bg-[#E60023] hover:text-white rounded-full transition-all shadow-sm"><svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.951-7.252 4.182 0 7.436 2.979 7.436 6.953 0 4.156-2.618 7.502-6.262 7.502-1.222 0-2.373-.635-2.766-1.387l-.754 2.872c-.272 1.043-1.012 2.348-1.508 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.366 18.602 0 12.017 0z"/></svg></a>
+                                        <a href={`https://pinterest.com/pin/create/button/?url=${currentUrl}&media=${config.siteMetadata.siteUrl}${recipe.image?.[0]?.url}&description=${recipe.name}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center w-10 h-10 bg-gray-50 text-[#E60023] hover:bg-[#E60023] hover:text-white rounded-full transition-all shadow-sm"><svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.951-7.252 4.182 0 7.436 2.979 7.436 6.953 0 4.156-2.618 7.502-6.262 7.502-1.222 0-2.373-.635-2.766-1.387l-.754 2.872c-.272 1.043-1.012 2.348-1.508 3.146 1.123.345 2.306.535 3.55.535 6.607 0 11.985-5.365 11.985-11.987C23.97 5.366 18.602 0 12.017 0z"/></svg></a>
                                         <button onClick={copyToClipboard} title="Kopiera länk" className="flex items-center justify-center w-10 h-10 bg-gray-50 text-gray-600 hover:bg-gray-200 hover:text-gray-900 rounded-full transition-all shadow-sm"><svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" /></svg></button>
                                     </div>
                                 </div>
@@ -291,7 +261,7 @@ const RecipeTemplate = ({ post, pageContext, allRecipes, categories }) => {
                         <span className="h-px flex-grow bg-gray-200"></span>
                     </h2>
                     <div className="prose prose-base md:prose-lg text-gray-600 leading-relaxed font-medium max-w-none prose-a:text-secondary prose-a:font-bold hover:prose-a:text-orange-500 prose-a:transition-colors">
-                        <div dangerouslySetInnerHTML={{ __html: rawDescription }} />
+                        <div dangerouslySetInnerHTML={{ __html: recipe.description }} />
                     </div>
                 </div>
             </main>

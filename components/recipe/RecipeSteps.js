@@ -10,18 +10,31 @@ const RecipeSteps = ({ additionalClass = [], steps, headerText }) => (
         
         <div className="space-y-10">
             {steps.map((step, index) => (
-                /* أضفنا هنا الـ ID لكل خطوة بناءً على رقمها */
-                <div key={index} id={`step${index + 1}`} className="relative scroll-mt-24"> 
-                    <div className="flex items-start mb-2">
+                <div key={index} className="relative"> 
+                    
+                    {/* 
+                        خدعة السيو والروابط: 
+                        نضع نقطتي ارتكاز مخفيتين في أعلى الخطوة لدعم كلا الشكلين:
+                        #step-1 و #step1
+                        استخدمنا scroll-mt-24 لكي لا يختفي النص تحت القائمة العلوية عند القفز إليه
+                    */}
+                    <div id={`step-${index + 1}`} className="absolute top-0 scroll-mt-24 invisible"></div>
+                    <div id={`step${index + 1}`} className="absolute top-0 scroll-mt-24 invisible"></div>
+
+                    <div className="flex items-start mb-2 relative z-10">
+                        {/* رقم الخطوة */}
                         <span className="flex-shrink-0 flex items-center justify-center w-7 h-7 rounded-full bg-secondary/10 text-secondary font-bold text-xs mr-4 mt-0.5 shadow-sm border border-secondary/20">
                             {index + 1}
                         </span>
                         
-                        <div className="flex-1">
-                            <p className="text-base text-gray-700 leading-relaxed font-medium">
-                                {step.step}
-                            </p>
+                        <div className="flex-1 w-full overflow-hidden">
+                            {/* نص الخطوة مع دعم الـ HTML والروابط الداخلية */}
+                            <div 
+                                className="text-base text-gray-700 leading-relaxed font-medium prose prose-sm max-w-none prose-p:my-0 prose-a:text-secondary prose-a:font-bold hover:prose-a:text-orange-500 transition-colors"
+                                dangerouslySetInnerHTML={{ __html: step.step || "" }}
+                            />
 
+                            {/* صورة الخطوة إن وجدت */}
                             {step.image && step.image[0] && (
                                 <div className="rounded-xl overflow-hidden shadow-sm mt-4 mb-2 border border-gray-100">
                                     <Image
